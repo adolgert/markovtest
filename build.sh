@@ -9,3 +9,7 @@ autoreconf --force --install
 echo "done autoreconf"
 ./configure
 make
+./sirmixed
+./meta
+./weiss
+./bvd
