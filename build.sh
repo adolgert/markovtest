@@ -5,7 +5,7 @@ cd /home/jenkins
 git clone https://github.com/afidd/Semi-Markov.git
 cd Semi-Markov
 echo "autoreconf now"
-autoreconf --force --reinstall
+autoreconf --force --install
 echo "done autoreconf"
 ./configure
 make
